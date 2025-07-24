@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>style</title>
+    <style>
+        body {
+            background-color: black;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #00205b;
+            padding: 10px 20px;
+            color: white;
+        }
+
+        .logopepsi img {
+            height: 50px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .promocion {
+            background-color: #4775E6;
+            color: white;
+            padding: 40px;
+            font-size: 22px;
+            text-align: center;
+        }
+
+        main {
+            background-color: #e6f0fa;
+            padding: 60px 20px;
+            justify-content: space-between;
+
+        }
+
+        .razones-section {
+            background-color: #d7ecff;
+            padding: 30px;
+            text-align: center;
+            border-radius: 12px;
+            margin-top: 40px;
+        }
+
+        .razones {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .razon {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            width: 220px;
+            font-size: 16px;
+            color: #00205b;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .promo-contenido {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .promo-texto {
+            font-size: 2em;
+            font-weight: bold;
+            color: #00205b;
+            text-align: left;
+            max-width: 400px;
+        }
+
+        .imagen-pepsi {
+            max-width: 350px;
+            border-radius: 10%;
+            border: 3px solid #1515EB;
+        }
+        footer{
+            background-color: #d7ecff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logopepsi">
+            <img src="./img/logo pepsi.png" alt="Logo Pepsi">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Precios</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="promocion">
+        <h2><em>COLECCIÓN DE LATAS</em></h2>
+    </div>
+
+    <main>
+        <div class="promo-contenido">
+            <div class="promo-texto">
+                <em>¡Frescura al alcance de tu boca!</em>
+            </div>
+            <img class="imagen-pepsi" src="./img/pepsihelada.webp" alt="Pepsi Helada">
+        </div>
+    
+        <section class="razones-section">
+            <h2>3 Razones para tomar Pepsi</h2>
+            <div class="razones">
+                <div class="razon">1. Un sabor único que provoca tomarlo todos los días.</div>
+                <div class="razon">2. Burbujas explosivas que te despiertan.</div>
+                <div class="razon">3. Su frescura lo hace aún más rico y refrescante.</div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="lista-app">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
