@@ -105,8 +105,52 @@
             border-radius: 10%;
             border: 3px solid #1515EB;
         }
-        footer{
-            background-color: #d7ecff;
+
+        footer {
+            background-color: #fd7f7f;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        .lista-app ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+
+        }
+
+        .lista-app a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin: 8px 0;
+        }
+
+        .lista {
+
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+
+
+            a {
+                text-decoration: none;
+                color: rgb(27, 25, 25);
+            }
+        }
+
+        .columna-formulario {
+            width: 300px;
+            margin-left: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            background-color: antiquewhite;
         }
     </style>
 </head>
@@ -137,7 +181,7 @@
             </div>
             <img class="imagen-pepsi" src="./img/pepsihelada.webp" alt="Pepsi Helada">
         </div>
-    
+
         <section class="razones-section">
             <h2>3 Razones para tomar Pepsi</h2>
             <div class="razones">
@@ -150,12 +194,39 @@
     <footer>
         <div class="lista-app">
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li><a href="https://www.facebook.com/tycsports"><img src="./img/tik-tok.png" alt="" width="32"></a>
+                </li>
+                <li><a href="https://x.com/tycsports"><img src="./img/twitter-alt-square.png" alt="" width="32"></a>
+                </li>
+                <li><a href="https://www.instagram.com/tycsports/"><img src="./img/instagram.png" alt="" width="32"></a>
+                </li>
+                <li><a href="https://www.youtube.com/user/TyCSportsOficial"><img src="./img/youtube.png" alt=""
+                            width="32"></a></li>
             </ul>
         </div>
+        <div>
+            <ul class="lista">
+                <li><a href="#">Productos</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Trabajo</a></li>
+            </ul>
+        </div>
+
+        <div class="columna-formulario">
+            <form>
+                <label for="NOMBRE">NOMBRE:</label>
+                <input type="text">
+                <label for="APELLIDO">APELLIDO:</label>
+                <Input type="text">
+                <label for="EMAIL">EMAIL:</label>
+                <input type="text">
+
+
+            </form>
+
+        </div>
+
+
     </footer>
 </body>
 
